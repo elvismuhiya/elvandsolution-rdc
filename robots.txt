@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elvandsolution-rdc.vercel.app/sitemap.xml
