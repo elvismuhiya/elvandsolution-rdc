@@ -523,7 +523,7 @@ else if(a==='realisations') html=b?views.work(b):views.works(); else if(a==='act
 else if(a==='faq') html=views.faq(); else if(a==='contact') html=views.contact(); else if(a==='mentions-legales') html=views.legal();
 else if(a==='confidentialite') html=views.privacy(); else html=views.notfound();
 $('#app').innerHTML=html;
-document.title=(TITLES[a]!==undefined?TITLES[a]+' – ':'Page introuvable – ')+'ELVAND Studio';
+document.title=(TITLES[a]!==undefined?TITLES[a]+' – ':'Page introuvable – ')+'ELVAND SOLUTION';
 $$('#drawer a.nl').forEach(l=>l.classList.toggle('act',l.getAttribute('href')==='#/'+a||(a===''&&l.getAttribute('href')==='#/')));
 closeMenu(); reveal();
 }
