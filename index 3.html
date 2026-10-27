@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ELVAND SOLUTION | Graphisme, Web & Décoration à Kolwezi, RDC</title>
+<link rel="canonical" href="https://elvandsolution-rdc.vercel.app/">
+<meta name="author" content="Elvis Muhiya — ELVAND SOLUTION">
+<meta name="description" content="ELVAND SOLUTION, fondé par Elvis Muhiya : graphisme, identité visuelle, sites web, interfaces d’applications, architecture et décoration d’intérieur à Kolwezi, République démocratique du Congo.">
+<meta name="keywords" content="ELVAND SOLUTION, ELVAND Studio, Elvis Muhiya, Mr Elvis Muhiya, graphiste designer Kolwezi, création graphique RDC, web design Kolwezi, création site web RDC, architecture intérieure Kolwezi, décoration intérieure Kolwezi">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="google-site-verification" content="9ol8Y95dSnqQyntAXR0kZrhTTfJPiFcO-ejvmZvRtQY">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ELVAND SOLUTION">
+<meta property="og:locale" content="fr_CD">
+<meta property="og:url" content="https://elvandsolution-rdc.vercel.app/">
+<meta property="og:title" content="ELVAND SOLUTION | Création graphique, web et décoration">
+<meta property="og:description" content="Création visuelle, identité de marque, sites web, interfaces d’applications et décoration d’intérieur à Kolwezi, RDC.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ELVAND SOLUTION | Graphisme, Web & Décoration">
+<meta name="twitter:description" content="ELVAND SOLUTION — créativité et solutions numériques à Kolwezi, RDC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--violet:#3300ff;--vert:#51cb20;--encre:#14122b;--fumee:#f5f5f5;--r:44px;--max:1160px;--ease:cubic-bezier(.2,.7,.2,1)}
+[data-theme="dark"]{--bg:#100d2b;--s1:#1a1640;--s2:#241f55;--tx:#f5f5f5;--soft:#b9b6dc;--line:rgba(255,255,255,.14);--ac:#a99bff;--shadow:rgba(0,0,0,.4)}
+[data-theme="light"]{--bg:#f5f5f5;--s1:#ffffff;--s2:#e9e8f7;--tx:#14122b;--soft:#55536f;--line:rgba(20,18,43,.14);--ac:#3300ff;--shadow:rgba(20,18,43,.18)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Roboto,"Segoe UI",Helvetica,Arial,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--vert);outline-offset:3px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(18px,4vw,36px)}
+h1,h2,h3,h4{line-height:1.08;letter-spacing:-.02em;font-weight:900}
+h1{font-size:clamp(40px,7vw,84px)}
+h2{font-size:clamp(30px,4.6vw,52px)}
+h3{font-size:clamp(20px,2.4vw,26px);font-weight:700;letter-spacing:-.01em}
+p.lead{font-size:clamp(18px,2vw,21px);color:var(--soft);max-width:60ch}
+.soft{color:var(--soft)}
+section.blk{padding:clamp(56px,9vw,110px) 0}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(28px,4vw,48px)}
+.head p{max-width:46ch;color:var(--soft)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;padding:14px 26px;border-radius:12px;border:2px solid transparent;cursor:pointer;transition:transform .2s var(--ease),background .2s,color .2s;font-size:16px}
+.btn:hover{transform:translateY(-2px)}
+.btn-g{background:var(--vert);color:var(--encre)}
+.btn-v{background:var(--violet);color:#fff}
+.btn-o{border-color:var(--line);background:transparent;color:var(--tx)}
+.btn-o:hover{border-color:var(--vert)}
+.btn-s{padding:9px 16px;font-size:14px;border-radius:10px}
+.btn-d{background:#d93a3a;color:#fff}
+#top{position:fixed;inset:0 0 auto 0;z-index:66;height:72px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 clamp(14px,3vw,32px);background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+#burger{width:46px;height:46px;border-radius:12px;border:2px solid var(--line);background:transparent;cursor:pointer;display:flex;flex-direction:column;justify-content:center;gap:6px;padding:0 11px;flex:none}
+#burger span{display:block;height:3px;border-radius:2px;background:var(--tx);transition:transform .3s var(--ease),opacity .2s,width .3s}
+#burger span:nth-child(2){width:70%}
+#burger[aria-expanded="true"] span:nth-child(1){transform:translateY(9px) rotate(45deg)}
+#burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+#burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-9px) rotate(-45deg)}
+.brand{margin-right:auto;margin-left:6px;display:flex;align-items:center}
+.brand img{height:40px;width:auto}
+[data-theme="dark"] .logo{filter:brightness(0) invert(1)}
+.tools{display:flex;align-items:center;gap:10px}
+#theme{width:44px;height:44px;border-radius:50%;border:2px solid var(--line);background:transparent;cursor:pointer;display:grid;place-items:center}
+#progress{position:fixed;top:0;left:0;height:4px;width:0;background:var(--vert);z-index:70}
+#scrim{position:fixed;inset:0;background:rgba(10,8,30,.6);opacity:0;pointer-events:none;transition:opacity .3s;z-index:60}
+#scrim.on{opacity:1;pointer-events:auto}
+#drawer{position:fixed;top:0;left:0;bottom:0;width:min(420px,90vw);background:var(--s1);z-index:65;transform:translateX(-102%);transition:transform .45s var(--ease);padding:96px 32px 32px;display:flex;flex-direction:column;overflow:auto;border-radius:0 var(--r) var(--r) 0;visibility:hidden}
+#drawer.on{transform:none;visibility:visible}
+#drawer a.nl{display:flex;justify-content:space-between;align-items:center;font-size:clamp(26px,5vw,34px);font-weight:900;letter-spacing:-.02em;padding:10px 0;border-bottom:1px solid var(--line)}
+#drawer a.nl::after{content:"";width:12px;height:12px;border-radius:50%;background:var(--vert);transform:scale(0);transition:transform .25s var(--ease)}
+#drawer a.nl:hover::after,#drawer a.nl.act::after{transform:scale(1)}
+#drawer .dc{margin-top:auto;padding-top:28px;color:var(--soft);font-size:15px;line-height:1.9}
+#drawer .dc a{color:var(--tx);font-weight:700}
+#pre{position:fixed;inset:0;background:var(--violet);z-index:100;display:grid;place-items:center;transition:transform .7s var(--ease) .15s}
+#pre.off{transform:translateY(-100%)}
+#pre svg{height:120px;width:auto;color:#fff;animation:pulse 1s ease-in-out infinite alternate}
+@keyframes pulse{from{opacity:.4;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}#pre svg{animation:none}html{scroll-behavior:auto}}
+main{padding-top:72px;min-height:80vh}
+.hero{padding:clamp(40px,7vw,96px) 0 clamp(48px,7vw,90px)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,4vw,56px);align-items:center}
+.chip{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);padding:7px 16px;border-radius:40px;font-size:14px;font-weight:500;margin-bottom:22px;color:var(--soft)}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--vert)}
+.hero h1{max-width:12ch}
+.hero p.lead{margin-top:22px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.hero-art{position:relative;aspect-ratio:1;max-width:460px;width:100%;justify-self:center}
+.hero-art .c1{position:absolute;inset:6% 0 0 6%;border-radius:50%;background:var(--vert)}
+.hero-art .c2{position:absolute;left:0;top:0;width:58%;height:58%;background:var(--violet);border-radius:100% 0 0 0}
+.hero-art .c3{position:absolute;right:0;bottom:0;width:42%;height:42%;border:10px solid var(--tx);border-radius:50%;opacity:.9}
+.hero-art svg{position:absolute;left:50%;top:50%;height:58%;width:auto;color:#fff;transform:translate(-45%,-50%);filter:drop-shadow(0 12px 18px rgba(0,0,0,.25))}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:26px clamp(14px,2.4vw,28px);border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts b{display:block;font-size:clamp(24px,3.2vw,36px);font-weight:900;letter-spacing:-.02em}
+.facts span{color:var(--soft);font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.card{background:var(--s1);padding:30px;border-radius:0 var(--r) 0 0;border:1px solid var(--line);transition:transform .3s var(--ease),border-color .3s;display:flex;flex-direction:column;gap:12px}
+.card:hover{transform:translateY(-6px);border-color:var(--vert)}
+.card p{color:var(--soft);font-size:16px}
+.ico{width:58px;height:58px;border-radius:50% 0 50% 0;background:var(--violet);display:grid;place-items:center;margin-bottom:6px}
+.ico svg{width:30px;height:30px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card:nth-child(even) .ico{background:var(--vert)}.card:nth-child(even) .ico svg{stroke:var(--encre)}
+.link{font-weight:700;display:inline-flex;gap:8px;align-items:center;color:var(--ac)}
+.link:hover{text-decoration:underline}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.pill{border:2px solid var(--line);background:transparent;border-radius:40px;padding:8px 18px;font-weight:500;font-size:15px;cursor:pointer;transition:background .2s,border-color .2s}
+.pill:hover{border-color:var(--vert)}
+.pill.on{background:var(--vert);border-color:var(--vert);color:var(--encre);font-weight:700}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.work{display:block;position:relative}
+.work .fig{aspect-ratio:4/5;overflow:hidden;border-radius:0 var(--r) 0 0;background:var(--s2);position:relative}
+.work .fig svg,.work .fig img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.work:hover .fig svg,.work:hover .fig img{transform:scale(1.06)}
+.work h3{margin-top:14px;font-size:19px}
+.work small{color:var(--soft);font-size:14px}
+.provisoire{position:absolute;left:10px;top:10px;background:var(--encre);color:#fff;font-size:12px;padding:3px 10px;border-radius:20px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;border-left:1px solid var(--line)}
+.step{padding:6px 26px 6px 24px;border-right:1px solid var(--line)}
+.step b{font-size:48px;font-weight:900;color:var(--vert);line-height:1;display:block;margin-bottom:10px}
+.step p{color:var(--soft);font-size:16px}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,5vw,64px);align-items:center}
+.portrait{aspect-ratio:4/5;background:var(--violet);border-radius:0 var(--r) 0 0;position:relative;overflow:hidden}
+.portrait img.ph{width:100%;height:100%;object-fit:cover}
+.portrait .g{position:absolute;right:-18%;bottom:-12%;width:80%;aspect-ratio:1;border-radius:50%;background:var(--vert)}
+.portrait .bl{position:absolute;left:50%;top:44%;height:46%;transform:translate(-50%,-50%)}
+.note{border-left:6px solid var(--vert);background:var(--s2);padding:14px 20px;border-radius:0 14px 14px 0;margin-top:28px;font-size:16px}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.tags span{background:var(--s2);padding:7px 16px;border-radius:40px;font-size:15px;font-weight:500}
+.timeline{border-left:3px solid var(--vert);padding-left:24px;display:grid;gap:26px}
+.timeline b{font-size:20px}
+.founders{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.fcard{background:var(--s1);border:1px solid var(--line);border-radius:0 var(--r) 0 0;overflow:hidden;display:flex;flex-direction:column}
+.fp{aspect-ratio:16/10;position:relative;overflow:hidden;display:grid;place-items:center}
+.fp i{position:absolute;right:-8%;bottom:-40%;width:60%;aspect-ratio:1;border-radius:50%}
+.fp b{position:relative;font-size:clamp(90px,14vw,150px);font-weight:900;color:#fff;line-height:1}
+.fp img.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fb{padding:26px 28px 30px;display:flex;flex-direction:column}
+.fb .tags{margin-top:16px}
+.news{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.post{background:var(--s1);border:1px solid var(--line);border-radius:0 var(--r) 0 0;padding:28px;display:flex;flex-direction:column;gap:10px;transition:transform .3s var(--ease)}
+.post:hover{transform:translateY(-5px)}
+.post small{color:var(--soft)}
+.post .tg{align-self:flex-start;background:var(--violet);color:#fff;font-size:13px;padding:3px 12px;border-radius:20px}
+.article{max-width:760px}
+.article p{margin-top:18px;color:var(--soft);font-size:19px}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font-size:clamp(18px,2.2vw,22px);font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:20px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:30px;line-height:1;color:var(--vert);transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:12px;color:var(--soft);max-width:70ch}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,60px);align-items:start}
+form.f{display:grid;gap:16px}
+label{display:grid;gap:6px;font-size:15px;font-weight:500}
+input,select,textarea{background:var(--s1);border:2px solid var(--line);border-radius:12px;padding:13px 16px;width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--vert);outline:0}
+textarea{min-height:140px;resize:vertical}
+.clist{display:grid;gap:14px}
+.crow{display:flex;gap:16px;align-items:center;background:var(--s1);border:1px solid var(--line);padding:18px 22px;border-radius:0 28px 0 0;transition:border-color .2s}
+.crow:hover{border-color:var(--vert)}
+.crow .ico{width:48px;height:48px;margin:0;flex:none}
+.crow b{display:block}
+.crow span{color:var(--soft);font-size:15px;word-break:break-word}
+.band{background:var(--violet);color:#fff;border-radius:0 var(--r) 0 var(--r);padding:clamp(32px,6vw,72px);display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap;position:relative;overflow:hidden}
+.band::after{content:"";position:absolute;right:-60px;top:-80px;width:260px;height:260px;border-radius:50%;background:var(--vert);opacity:.95}
+.band>*{position:relative;z-index:1}.band h2{max-width:16ch}
+.band .btn-g{z-index:2}
+.msg{padding:14px 18px;border-radius:12px;background:var(--s2);font-weight:500}
+.msg.ok{border-left:6px solid var(--vert)}.msg.er{border-left:6px solid #d93a3a}
+footer{background:var(--s1);border-top:1px solid var(--line);padding:56px 0 28px;margin-top:40px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+.fgrid h4{font-size:16px;margin-bottom:12px}
+.fgrid a,.fgrid p{display:block;color:var(--soft);font-size:15px;padding:3px 0}
+.fgrid a:hover{color:var(--tx)}
+.fgrid img{height:44px;margin-bottom:14px;width:auto}
+.fbot{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;font-size:14px;color:var(--soft)}
+.fbot a.lock{opacity:.3;display:inline-flex}.fbot a.lock:hover{opacity:1}
+.fbot svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}
+#wafab{position:fixed;right:18px;bottom:18px;z-index:45;width:58px;height:58px;border-radius:50%;background:var(--vert);display:grid;place-items:center;box-shadow:0 10px 24px var(--shadow);transition:transform .2s}
+#wafab:hover{transform:scale(1.08)}
+#wafab svg{width:30px;height:30px;fill:var(--encre)}
+#totop{position:fixed;right:24px;bottom:90px;z-index:45;width:46px;height:46px;border-radius:50%;border:2px solid var(--line);background:var(--s1);cursor:pointer;display:none;place-items:center}
+#totop.on{display:grid}
+#totop svg{width:20px;height:20px;stroke:var(--tx);fill:none;stroke-width:2.5}
+#cookie{position:fixed;left:16px;bottom:16px;z-index:44;max-width:340px;background:var(--s1);border:1px solid var(--line);border-radius:0 28px 0 0;padding:18px;box-shadow:0 12px 30px var(--shadow);font-size:14px;display:none}
+#cookie.on{display:block}
+#cookie .btn{margin-top:10px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.err404{text-align:center;padding:60px 0}
+.err404 b{font-size:clamp(100px,22vw,220px);font-weight:900;line-height:1;color:var(--violet);display:block}
+.legal h2{font-size:24px;margin-top:34px}.legal p{margin-top:10px;color:var(--soft);max-width:70ch}
+@media (max-width:860px){
+.hero-grid,.about-grid,.two,.adm{grid-template-columns:1fr}
+.fgrid{grid-template-columns:1fr 1fr}
+.facts div{border-right:0;border-bottom:1px solid var(--line)}
+.hero-art{max-width:320px}
+#topcta{display:none}
+}
+@media (max-width:520px){.fgrid{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.fbot{flex-direction:column}#cookie{right:16px;max-width:none;bottom:86px}}
+.adm{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:start}
+.atabs{display:grid;gap:8px;position:sticky;top:92px}
+.atabs button{text-align:left;background:transparent;border:2px solid var(--line);border-radius:12px;padding:11px 16px;cursor:pointer;font-weight:500}
+.atabs button.on{background:var(--violet);border-color:var(--violet);color:#fff;font-weight:700}
+.panel{background:var(--s1);border:1px solid var(--line);border-radius:0 var(--r) 0 0;padding:clamp(20px,3vw,34px)}
+.panel h3{margin-bottom:16px}
+.row{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.row small{color:var(--soft)}.row .ac{display:flex;gap:8px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:20px}
+.kpis div{background:var(--s2);padding:18px;border-radius:12px}.kpis b{font-size:34px;font-weight:900;display:block}
+.login{max-width:440px;margin:0 auto}
+.pv{width:90px;aspect-ratio:4/5;border-radius:8px;overflow:hidden;background:var(--s2)}
+.fbot a.lock{opacity:.3;display:inline-flex}.fbot a.lock:hover{opacity:1}.fbot svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}
+@media (max-width:860px){.adm{grid-template-columns:1fr}.atabs{position:static;grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}}
+</style>
+</head>
+<body>
+<div id="pre"><svg viewBox="0 0 60 84" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 34h10M17 13l8 8M39 4v11M40 23c-14 0-24 10-24 22 0 6 2 10 5 16 3 5 4 8 5 11 .3 2 2 3 4 3h10M24 74h22M30 81h10"/></svg></div>
+<div id="progress"></div>
+<header id="top">
+<button id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
+<a class="brand" href="#/" aria-label="ELVAND Studio, accueil"><img class="logo" src="data:image/png;base64,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" alt="ELVAND Solution"></a>
+<div class="tools">
+<button id="theme" aria-label="Changer de thème"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+<a class="btn btn-g btn-s" id="topcta" href="#/contact">Demander un devis</a>
+</div>
+</header>
+<div id="scrim"></div>
+<nav id="drawer" aria-label="Menu principal"></nav>
+<main id="app"></main>
+<footer id="foot"></footer>
+<a id="wafab" aria-label="Écrire sur WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.200zm4.500-6.100c-.2-.1-1.500-.7-1.700-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.200-.3.200-.5.100a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.2-.4.700-1.300.1-.2 0-.3 0-.5l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.300 3 3 0 0 0-.9 2.200 5.200 5.200 0 0 0 1.100 2.800 11.900 11.900 0 0 0 4.600 4c1.700.7 2.400.8 3.200.7a2.800 2.800 0 0 0 1.800-1.300 2.200 2.200 0 0 0 .2-1.300c-.1-.1-.3-.2-.6-.3z"/></svg></a>
+<button id="totop" aria-label="Haut de page"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div id="cookie" role="dialog" aria-label="Information"><b>Votre confort d’abord</b><p class="soft" style="margin-top:6px">Ce site retient seulement votre choix de thème (clair ou sombre). Aucun suivi publicitaire.</p><button class="btn btn-g btn-s" id="cok">D’accord</button></div>
+<script>
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mem={};
+const store={
+get(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null}catch(e){return mem[k]??null}},
+set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){mem[k]=v}}
+};
+const BULB=`<svg viewBox="0 0 60 84" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 34h10M17 13l8 8M39 4v11M40 23c-14 0-24 10-24 22 0 6 2 10 5 16 3 5 4 8 5 11 .3 2 2 3 4 3h10M24 74h22M30 81h10"/></svg>`;const LOGO=document.querySelector(".brand img").src;
+const V='#3300ff',G='#51cb20',D='#14122b',F='#f5f5f5';
+const CATS=['Graphisme','Identité visuelle','Web design','Applications mobiles','Sites web','Architecture d’intérieur','Décoration d’intérieur','Vidéo et photo'];
+const AUT=['Elvis','André La parole'];
+const CONSTR=['Architecture d’intérieur','Décoration d’intérieur'];
+const DEF={
+settings:{
+heroTitle:'Vos idées, en version brillante.',
+heroText:'ELVAND Studio réunit graphisme, web design, applications mobiles, sites web, architecture et décoration d’intérieur, vidéo et photo. Un seul studio, une image cohérente.',
+aboutTitle:'Deux fondateurs, un studio',
+aboutText:'ELVAND Studio est dirigé par Elvis Muhiya et André La parole. Deux profils complémentaires pour couvrir l’image, le web, la vidéo et les espaces : de l’identité visuelle au site en ligne, de l’affiche au montage vidéo.',
+elvisText:'Décorateur d’intérieur, infographe et architecte d’intérieur, Elvis est fort en développement web et en analyse de projets. Il conçoit aussi les flyers, les affiches et les publications pour les réseaux sociaux, ainsi que des interfaces de sites et d’applications. Il est aussi fondateur de VALDURA (architecture et décoration). Côté construction, architecture et décoration d’intérieur lui sont attribuées à lui seul.',
+andreText:'Designer créatif et spécialiste en identité visuelle, André La parole est expert en logo design, branding, web design et design graphique. Il dirige la conception visuelle et l’image de marque chez ELVAND Solution. Grâce à son sens de l’innovation et à sa créativité, il conçoit des identités visuelles fortes et modernes qui permettent aux entreprises de se démarquer dans l’univers digital. Il est aussi à l’aise en codage, monte des vidéos et peut intervenir comme photographe.',
+aboutPhoto:'',
+andrePhoto:'',
+whatsapp:'243852512411',
+facebook:'https://www.facebook.com/share/19nLvaH91v/?mibextid=wwXIfr',
+email:'elvismuhiya349@gmail.com',
+city:'Kolwezi, République démocratique du Congo',
+since:'2024'
+},
+projects:[
+{id:'p1',title:'Phobeo Déco, 65 ans d’indépendance',cat:'Graphisme',auteur:'Elvis',year:'2025',tone:0,img:'',desc:'Affiche commémorative pour les 65 ans de l’indépendance, aux couleurs de la marque Phobeo Déco.'},
+{id:'p2',title:'Ragout Congo',cat:'Graphisme',auteur:'Elvis',year:'2025',tone:1,img:'',desc:'Affiche publicitaire food : mise en valeur du plat, couleurs chaudes et message court.'},
+{id:'p3',title:'Lovely Perfume',cat:'Graphisme',auteur:'Elvis',year:'2025',tone:3,img:'',desc:'Visuel publicitaire pour une boutique de parfums, élégant et lisible sur mobile.'},
+{id:'p4',title:'ELVAND Solution, nos services',cat:'Graphisme',auteur:'Elvis',year:'2025',tone:2,img:'',desc:'Affiche de présentation des services d’ELVAND SOLUTION.'},
+{id:'p5',title:'Tem’s Store',cat:'Graphisme',auteur:'Elvis',year:'2025',tone:4,img:'',desc:'Affiche pour une boutique en ligne : produits, contact et appel à l’action.'},
+{id:'p6',title:'Naturelys, boutique en ligne',cat:'Sites web',auteur:'Elvis',year:'2025',tone:1,img:'',desc:'Site e-commerce pour des produits bio et cosmétiques : catalogue, panier et pages produits.'},
+{id:'p7',title:'Suivi de livraison urbaine',cat:'Applications mobiles',auteur:'Elvis',year:'2025',tone:5,img:'',desc:'Concept d’application pour suivre les livraisons du dernier kilomètre à Kinshasa.'},
+{id:'p8',prov:true,title:'Site vitrine d’un cabinet',cat:'Web design',auteur:'André La parole',year:'2025',tone:3,img:'',desc:'Maquette de site vitrine : hiérarchie claire, grille géométrique et appels à l’action visibles.'},
+{id:'p9',prov:true,title:'Plan d’un salon ouvert',cat:'Architecture d’intérieur',auteur:'Elvis',year:'2025',tone:0,img:'',desc:'Plan d’aménagement d’un salon ouvert sur la cuisine : circulation, volumes et rangements.'},
+{id:'p10',prov:true,title:'Ambiance salon contemporain',cat:'Décoration d’intérieur',auteur:'Elvis',year:'2025',tone:2,img:'',desc:'Palette, matières et mobilier pour un salon chaleureux et sobre.'},
+{id:'p11',prov:true,title:'Identité visuelle d’une marque',cat:'Identité visuelle',auteur:'André La parole',year:'2025',tone:0,img:'',desc:'Logo, couleurs et typographies : une identité visuelle complète, déclinée sur les supports de la marque.'},
+{id:'p12',prov:true,title:'Montage vidéo promotionnel',cat:'Vidéo et photo',auteur:'André La parole',year:'2025',tone:5,img:'',desc:'Montage d’une vidéo courte pour les réseaux sociaux : rythme, sous-titres et identité de la marque.'},
+{id:'p13',prov:true,title:'Logo et charte d’un restaurant',cat:'Identité visuelle',auteur:'André La parole',year:'2025',tone:1,img:'',desc:'Création du logo, de la palette et des supports de communication d’un restaurant.'},
+{id:'p14',prov:true,title:'Branding d’une jeune entreprise tech',cat:'Identité visuelle',auteur:'André La parole',year:'2025',tone:2,img:'',desc:'Identité moderne et sobre pensée pour le numérique : logo, couleurs et réseaux sociaux.'},
+{id:'p15',prov:true,title:'Séance photo professionnelle',cat:'Vidéo et photo',auteur:'André La parole',year:'2025',tone:4,img:'',desc:'Portraits et photos de produits pour une marque locale.'}
+],
+news:[
+{id:'n1',title:'Le nouveau site d’ELVAND Studio est en ligne',tag:'Annonce',date:'2026-10-16',text:'Découvrez nos réalisations, nos services et un moyen simple de demander un devis. Le site sera enrichi régulièrement avec de nouveaux projets.'},
+{id:'n2',title:'Des affiches chaque semaine sur nos réseaux',tag:'Réseaux',date:'2026-10-16',text:'Du lundi au dimanche, retrouvez nos affiches sur WhatsApp, Facebook et Instagram : identité visuelle, sites web, applications, multimédia et supports imprimés.'}
+]
+};
+const SERV=[
+{k:'Graphisme',ico:'<path d="M12 3l9 9-9 9-9-9z"/><circle cx="12" cy="12" r="2.500"/>',t:'Logos, chartes graphiques, affiches, flyers, cartes de visite et packaging, pour une image qui se reconnaît du premier coup d’œil.'},
+{k:'Identité visuelle',ico:'<circle cx="12" cy="12" r="9"/><path d="M12 7v10M7 12h10"/>',t:'Logo, branding et charte graphique : une identité forte et moderne pour vous démarquer dans l’univers digital.'},
+{k:'Web design',ico:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h8"/>',t:'Maquettes et interfaces de sites : parcours clair, typographie soignée et couleurs fidèles à votre marque.'},
+{k:'Applications mobiles',ico:'<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',t:'Conception d’interfaces d’applications pour Android et iOS, simples à utiliser et agréables à regarder.'},
+{k:'Sites web',ico:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',t:'Sites vitrines et boutiques en ligne, rapides et adaptés au mobile, que vous pouvez faire évoluer.'},
+{k:'Architecture d’intérieur',ico:'<path d="M3 21V8l9-5 9 5v13zM9 21v-7h6v7"/>',t:'Plans, volumes, circulation et rendus pour organiser vos espaces avant de construire ou rénover.'},
+{k:'Vidéo et photo',ico:'<rect x="3" y="7" width="18" height="13" rx="2"/><circle cx="12" cy="13.500" r="3.500"/><path d="M8 7l1.500-3h5L16 7"/>',t:'Montage vidéo, reportages et photographie de produits, d’événements et d’espaces.'},
+{k:'Décoration d’intérieur',ico:'<path d="M5 21V10a7 7 0 0 1 14 0v11M3 21h18M9 21v-6h6v6"/>',t:'Ambiances, couleurs, matières et mobilier pour des pièces qui vous ressemblent.'}
+];
+const FAQ=[
+['Comment demander un devis ?','Écrivez-nous sur WhatsApp ou remplissez le formulaire de la page Contact. Décrivez votre projet en quelques lignes, nous revenons vers vous avec une proposition.'],
+['Qui travaille sur mon projet ?','ELVAND est fondé par deux associés. Elvis s’occupe du développement web, de l’analyse de projets, des flyers, des affiches, des publications pour les réseaux sociaux, de l’architecture et de la décoration d’intérieur. André La parole s’occupe des identités visuelles, du codage, du montage vidéo et de la photographie. Chaque réalisation indique qui l’a réalisée.'],
+['Quels domaines couvrez-vous ?','Identité visuelle, graphisme, web design, applications mobiles, sites web, architecture d’intérieur, décoration d’intérieur, vidéo et photographie.'],
+['Où travaillez-vous ?','Le studio est à Kolwezi. Pour le graphisme, le web et les applications, nous pouvons travailler à distance. Pour l’architecture et la décoration d’intérieur, assurées par Elvis, parlons de votre lieu et de votre projet.'],
+['Puis-je modifier le résultat après livraison ?','Oui. Nous prévoyons des retours pendant la création, et nous pouvons faire évoluer vos supports ensuite.'],
+['Quels fichiers recevrai-je ?','Selon le projet : fichiers prêts pour l’impression, images pour les réseaux sociaux, sources et charte graphique.'],
+['Comment suivre vos nouveautés ?','Sur nos réseaux sociaux et dans la page Actualités du site.']
+];
+const STEPS=[['Écoute','Nous comprenons votre activité, votre public et vos objectifs.'],['Proposition','Un devis clair, un calendrier et une direction créative.'],['Création','Vous voyez l’avancement et vous donnez votre avis.'],['Livraison','Fichiers prêts à l’emploi et accompagnement au lancement.']];
+const S=JSON.parse(JSON.stringify(DEF));
+const SB='https://oqyuktczeewqzzvprjql.supabase.co',KEY='sb_publishable_nMkFkCjK2MqbPmPqEzDaGw_hJf0LhGs';
+let TOKEN=null;try{TOKEN=sessionStorage.getItem('elvand_tok')}catch(e){}
+const api=async(p,o={})=>{const h={apikey:KEY,...(o.headers||{})};if(o.auth&&TOKEN)h.Authorization='Bearer '+TOKEN;if(o.json)h['Content-Type']='application/json';
+const r=await fetch(SB+p,{method:o.method||'GET',headers:h,body:o.json?JSON.stringify(o.json):o.body});
+if(!r.ok){let m='';try{const j=await r.json();m=j.message||j.msg||j.error_description||''}catch(e){}const er=new Error(m||('Erreur '+r.status));er.status=r.status;throw er}
+const x=await r.text();return x?JSON.parse(x):null};
+const rowP=x=>({id:x.id,title:x.title,cat:x.cat,auteur:x.auteur,year:x.year||'',tone:x.tone,img:x.img||'',desc:x.description||'',prov:!!x.prov,position:x.position});
+async function loadRemote(){try{
+const [p,n,s]=await Promise.all([api('/rest/v1/projects?select=*&order=position.asc,created_at.desc'),api('/rest/v1/news?select=*&order=date.desc'),api('/rest/v1/site_settings?select=data&id=eq.1')]);
+if(p.length)S.projects=p.map(rowP);
+if(n.length)S.news=n.map(x=>({id:x.id,title:x.title,tag:x.tag,date:x.date,text:x.text}));
+if(s.length)Object.assign(S.settings,s[0].data);
+renderChrome();render()}catch(e){console.warn('Base indisponible, contenu par défaut affiché',e)}}
+
+const wa=(txt='')=>`https://wa.me/${S.settings.whatsapp}${txt?`?text=${encodeURIComponent(txt)}`:''}`;
+const ic=(p)=>`<span class="ico"><svg viewBox="0 0 24 24">${p}</svg></span>`;
+const fdate=d=>{try{return new Date(d).toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})}catch(e){return d}};
+const phoneFmt=n=>'+'+n.replace(/(\d{3})(\d{3})(\d{3})(\d{3})/,'$1 $2 $3 $4');
+function art(p){
+if(p.img) return `<img src="${p.img}" alt="${esc(p.title)}" loading="lazy">`;
+const pals=[[V,G,'#fff'],[G,D,'#fff'],[D,V,G],[F,V,G],['#fff',G,V],['#241f55',G,'#fff']];
+const [a,b,c]=pals[p.tone%pals.length];
+const light=[G,F,'#fff'].includes(a); const tc=light?D:'#fff';
+const words=p.title.split(' '),lines=[];let cur='';
+words.forEach(w=>{if((cur+' '+w).trim().length>13){lines.push(cur);cur=w}else cur=(cur+' '+w).trim()});lines.push(cur);
+const text=lines.slice(0,4).map((l,i)=>`<text x="28" y="${380+i*38}" font-size="34" font-weight="900" fill="${tc}" font-family="Roboto,Arial,sans-serif">${esc(l)}</text>`).join('');
+let motif='';
+const m=p.cat;
+if(m==='Graphisme') motif=`<circle cx="290" cy="150" r="120" fill="${b}"/><path d="M0 0h170a170 170 0 0 1-170 170z" fill="${c}" opacity=".9"/>${text}`;
+else if(m==='Web design'||m==='Sites web') motif=`<circle cx="320" cy="90" r="110" fill="${b}"/><rect x="40" y="90" width="320" height="230" rx="10" fill="#fff"/><rect x="40" y="90" width="320" height="30" rx="10" fill="#e6e6ef"/><rect x="58" y="136" width="170" height="16" rx="8" fill="${a}"/><rect x="58" y="164" width="110" height="10" rx="5" fill="#c7c7d8"/><rect x="58" y="190" width="80" height="26" rx="6" fill="${b}"/><rect x="58" y="240" width="90" height="60" rx="6" fill="#ececf6"/><rect x="156" y="240" width="90" height="60" rx="6" fill="#ececf6"/><rect x="254" y="240" width="90" height="60" rx="6" fill="#ececf6"/>${text.replace(/y="(\d+)"/g,(s,y)=>`y="${+y+30}"`)}`;
+else if(m==='Applications mobiles') motif=`<circle cx="90" cy="110" r="90" fill="${b}"/><rect x="130" y="40" width="150" height="290" rx="26" fill="${D}"/><rect x="140" y="56" width="130" height="258" rx="18" fill="${a===D?V:'#fff'}"/><rect x="152" y="80" width="80" height="12" rx="6" fill="${b}"/><rect x="152" y="112" width="106" height="64" rx="12" fill="${b}"/><circle cx="170" cy="214" r="18" fill="${c}"/><circle cx="214" cy="214" r="18" fill="${c}" opacity=".5"/><circle cx="170" cy="258" r="18" fill="${c}" opacity=".5"/><circle cx="214" cy="258" r="18" fill="${c}"/>${text.replace(/y="(\d+)"/g,(s,y)=>`y="${+y+30}"`)}`;
+else if(m==='Architecture d’intérieur') motif=`<g fill="none" stroke="${tc}" stroke-width="5"><rect x="40" y="50" width="320" height="270"/><path d="M40 190h140M180 50v140M250 320V220h110M180 190v60"/></g><path d="M250 320a60 60 0 0 1-60-60" fill="none" stroke="${b}" stroke-width="5"/><circle cx="300" cy="120" r="40" fill="${b}"/>${text.replace(/y="(\d+)"/g,(s,y)=>`y="${+y+30}"`)}`;
+else if(m==='Identité visuelle') motif=`<circle cx="120" cy="130" r="80" fill="${b}"/><path d="M120 90v80M80 130h80" stroke="${c}" stroke-width="12" stroke-linecap="round"/><rect x="230" y="60" width="130" height="60" rx="8" fill="${c}"/><rect x="230" y="136" width="60" height="60" rx="8" fill="${tc}" opacity=".85"/><rect x="300" y="136" width="60" height="60" rx="8" fill="${b}"/>${text.replace(/y="(\d+)"/g,(s,y)=>`y="${+y+10}"`)}`;
+else if(m==='Vidéo et photo') motif=`<rect x="40" y="60" width="320" height="200" rx="14" fill="${D}"/><circle cx="200" cy="160" r="52" fill="${b}"/><path d="M186 136l40 24-40 24z" fill="#fff"/><rect x="60" y="232" width="280" height="8" rx="4" fill="#ffffff55"/><rect x="60" y="232" width="120" height="8" rx="4" fill="${c}"/>${text.replace(/y="(\d+)"/g,(s,y)=>`y="${+y+10}"`)}`;
+else motif=`<path d="M40 330V170a80 80 0 0 1 160 0v160z" fill="${b}"/><path d="M220 330V220a60 60 0 0 1 120 0v110z" fill="${c}" opacity=".9"/><circle cx="300" cy="90" r="46" fill="${tc}" opacity=".9"/>${text.replace(/y="(\d+)"/g,(s,y)=>`y="${+y+30}"`)}`;
+return `<svg viewBox="0 0 400 500" role="img" aria-label="${esc(p.title)}" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="${a}"/>${motif}</svg>`;
+}
+const workCard=(p,d='')=>`<a class="work rv ${d}" href="#/realisations/${p.id}"><div class="fig">${art(p)}${p.prov?'<span class="provisoire">Exemple</span>':''}</div><h3>${esc(p.title)}</h3><small>${esc(p.cat)}<br>Réalisé par ${esc(p.auteur||'Elvis')}</small></a>`;
+const postCard=n=>`<a class="post rv" href="#/actualites/${n.id}"><span class="tg">${esc(n.tag)}</span><h3>${esc(n.title)}</h3><small>${fdate(n.date)}</small><p class="soft">${esc(n.text.slice(0,120))}${n.text.length>120?'…':''}</p><span class="link">Lire la suite →</span></a>`;
+const faqHtml=(list)=>list.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('');
+const ctaBand=()=>`<section class="blk" style="padding-top:20px"><div class="wrap"><div class="band rv"><div><h2>Parlons de votre projet.</h2><p style="margin-top:12px;max-width:40ch;opacity:.92">Écrivez-nous sur WhatsApp : nous répondons avec une proposition claire.</p></div><a class="btn btn-g" target="_blank" rel="noopener" href="${wa('Bonjour ELVAND, j’aimerais parler de mon projet.')}">Écrire sur WhatsApp</a></div></div></section>`;
+const FD={
+elvis:{name:'Elvis Muhiya',role:'Fondateur',key:'elvisText',photo:'aboutPhoto',ini:'E',bg:V,c:G,tags:['Développement web','Analyse de projets','Flyers et affiches','Réseaux sociaux','Architecture d’intérieur'],aut:'Elvis'},
+andre:{name:'André La parole',role:'Cofondateur',key:'andreText',photo:'andrePhoto',ini:'A',bg:G,c:V,tags:['Identités visuelles','Logo et branding','Web design','Codage','Montage vidéo','Photographie'],aut:'André La parole'}
+};
+const founderCard=k=>{const f=FD[k],s=S.settings;
+return `<article class="fcard rv ${k==='andre'?'d1':''}"><div class="fp" style="background:${f.bg}">${s[f.photo]?`<img class="ph" src="${s[f.photo]}" alt="Portrait de ${f.name}">`:`<i style="background:${f.c}"></i><b>${f.ini}</b>`}</div>
+<div class="fb"><h3>${f.name}</h3><small class="soft">${f.role} d’ELVAND</small><p class="soft" style="margin-top:12px">${esc(s[f.key])}</p><div class="tags">${f.tags.map(x=>`<span>${x}</span>`).join('')}</div><a class="link" style="margin-top:18px" href="#/realisations" data-aut="${esc(f.aut)}">Voir ses réalisations →</a></div></article>`};
+const views={};
+views.home=()=>{
+const s=S.settings;
+return `
+<section class="hero"><div class="wrap hero-grid">
+<div>
+<span class="chip rv"><i></i>${esc(s.city.split(',')[0])}, RD Congo, depuis ${esc(s.since)}</span>
+<h1 class="rv d1">${esc(s.heroTitle)}</h1>
+<p class="lead rv d2">${esc(s.heroText)}</p>
+<div class="cta-row rv d3"><a class="btn btn-g" href="#/contact">Demander un devis</a><a class="btn btn-o" href="#/realisations">Voir nos réalisations</a></div>
+</div>
+<div class="hero-art rv d2" aria-hidden="true"><div class="c1"></div><div class="c2"></div><div class="c3"></div>${BULB}</div>
+</div></section>
+<div class="wrap"><div class="facts rv"><div><b>${CATS.length} domaines</b><span>de la marque à l’intérieur</span></div><div><b>Depuis ${esc(s.since)}</b><span>au service de vos projets</span></div><div><b>${esc(s.city.split(',')[0])}</b><span>studio en RD Congo</span></div><div><b>WhatsApp</b><span>réponse directe</span></div></div></div>
+<section class="blk"><div class="wrap">
+<div class="head"><h2 class="rv">Ce que nous faisons</h2><p class="rv d1">Sept savoir-faire, une même exigence : un résultat clair, beau et utile.</p></div>
+<div class="cards">${SERV.map((x,i)=>`<article class="card rv d${i%3}">${ic(x.ico)}<h3>${x.k}</h3><p>${x.t}</p><a class="link" href="#/realisations" data-cat="${esc(x.k)}">Voir les projets →</a></article>`).join('')}</div>
+</div></section>
+<section class="blk" style="padding-top:0"><div class="wrap">
+<div class="head"><h2 class="rv">Réalisations récentes</h2><a class="btn btn-o rv d1" href="#/realisations">Toute la galerie</a></div>
+<div class="gal">${S.projects.slice(0,4).map((p,i)=>workCard(p,'d'+(i%3))).join('')}</div>
+</div></section>
+<section class="blk" style="background:var(--s1)"><div class="wrap">
+<div class="head"><h2 class="rv">Comment ça se passe</h2><p class="rv d1">Quatre étapes simples, du premier message à la livraison.</p></div>
+<div class="steps">${STEPS.map((x,i)=>`<div class="step rv d${i%3}"><b>${i+1}</b><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join('')}</div>
+</div></section>
+<section class="blk"><div class="wrap"><div class="head"><h2 class="rv">${esc(s.aboutTitle)}</h2><a class="btn btn-o rv d1" href="#/a-propos">Découvrir l’équipe</a></div>
+<p class="lead rv" style="margin-bottom:34px">${esc(s.aboutText)}</p>
+<div class="founders">${founderCard('elvis')}${founderCard('andre')}</div></div></section>
+<section class="blk" style="padding-top:0"><div class="wrap">
+<div class="head"><h2 class="rv">Actualités</h2><a class="btn btn-o rv d1" href="#/actualites">Toutes les annonces</a></div>
+<div class="news">${[...S.news].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,3).map(postCard).join('')}</div>
+</div></section>
+<section class="blk" style="padding-top:0"><div class="wrap two">
+<div class="rv"><h2>Questions fréquentes</h2><p class="lead" style="margin-top:14px">Les réponses aux demandes les plus courantes.</p><a class="btn btn-o" style="margin-top:22px" href="#/faq">Voir toute la FAQ</a></div>
+<div class="rv d1">${faqHtml(FAQ.slice(0,3))}</div>
+</div></section>
+${ctaBand()}`;
+};
+views.about=()=>{
+const s=S.settings;
+return `<section class="blk"><div class="wrap">
+<h1 class="rv" style="font-size:clamp(34px,5.4vw,60px)">À propos</h1>
+<h2 class="rv d1" style="font-size:clamp(22px,3vw,32px);margin-top:16px">${esc(s.aboutTitle)}</h2>
+<p class="lead rv d2" style="margin-top:16px">${esc(s.aboutText)}</p>
+<div class="founders" style="margin-top:44px">${founderCard('elvis')}${founderCard('andre')}</div>
+<div class="note rv">Côté construction, l’architecture d’intérieur et la décoration d’intérieur sont assurées uniquement par Elvis.</div>
+</div></section>
+<section class="blk" style="background:var(--s1)"><div class="wrap two">
+<div class="rv"><h2>Notre parcours</h2><p class="lead" style="margin-top:14px">Une activité née pour rendre les marques et les espaces plus clairs et plus beaux.</p></div>
+<div class="timeline rv d1"><div><b>${esc(s.since)}</b><p class="soft">Début de l’activité du studio à ${esc(s.city.split(',')[0])}.</p></div><div><b>ELVAND SOLUTION</b><p class="soft">Technologie, multimédia et graphisme : logos, sites, interfaces et supports.</p></div><div><b>VALDURA</b><p class="soft">Architecture et décoration d’intérieur, fondée par Elvis.</p></div><div><b>Aujourd’hui</b><p class="soft">Elvis et André réunissent leurs compétences dans un seul studio et un seul site.</p></div></div>
+</div></section>
+<section class="blk"><div class="wrap"><div class="head"><h2 class="rv">Ce qui nous guide</h2></div>
+<div class="cards">
+<div class="card rv">${ic('<path d="M12 3l9 9-9 9-9-9z"/>')}<h3>Clarté</h3><p>Un message simple, une mise en page lisible, un résultat que vos clients comprennent tout de suite.</p></div>
+<div class="card rv d1">${ic('<circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/>')}<h3>Cohérence</h3><p>La même identité sur vos affiches, votre site, vos applications et vos espaces.</p></div>
+<div class="card rv d2">${ic('<path d="M4 20l5-5 4 4 7-9"/>')}<h3>Progression</h3><p>Nous écoutons vos retours et nous améliorons chaque projet jusqu’à votre satisfaction.</p></div>
+</div></div></section>
+${ctaBand()}`;
+};
+views.services=()=>`
+<section class="blk"><div class="wrap">
+<h1 class="rv" style="font-size:clamp(34px,5.4vw,60px)">Services</h1>
+<p class="lead rv d1" style="margin-top:16px">Du logo à l’aménagement d’un salon : choisissez un service ou combinez-les.</p>
+<div class="cards" style="margin-top:40px">${SERV.map((x,i)=>`<article class="card rv d${i%3}">${ic(x.ico)}<h3>${x.k}</h3><p>${x.t}</p><a class="link" href="${wa('Bonjour ELVAND, je souhaite un devis pour : '+x.k)}" target="_blank" rel="noopener">Demander un devis →</a></article>`).join('')}</div>
+</div></section>
+<section class="blk" style="background:var(--s1)"><div class="wrap">
+<div class="head"><h2 class="rv">Notre méthode</h2></div>
+<div class="steps">${STEPS.map((x,i)=>`<div class="step rv d${i%3}"><b>${i+1}</b><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join('')}</div>
+</div></section>
+<section class="blk"><div class="wrap two"><div class="rv"><h2>Une question avant de commencer ?</h2></div><div class="rv d1">${faqHtml(FAQ.slice(0,4))}</div></div></section>
+${ctaBand()}`;
+let galCat='Tout', galAut='Tous';
+views.works=()=>{
+const list=S.projects.filter(p=>(galCat==='Tout'||p.cat===galCat)&&(galAut==='Tous'||p.auteur===galAut));
+return `<section class="blk"><div class="wrap">
+<h1 class="rv" style="font-size:clamp(34px,5.4vw,60px)">Réalisations</h1>
+<p class="lead rv d1" style="margin-top:16px">Nos projets et ceux de l’équipe, par domaine.</p>
+<div class="filters" style="margin-top:34px" role="tablist">${['Tout',...CATS].map(c=>`<button class="pill ${c===galCat?'on':''}" data-filter="${esc(c)}">${esc(c)}</button>`).join('')}</div>
+<div class="filters" aria-label="Filtrer par auteur">${['Tous',...AUT].map(a=>`<button class="pill ${a===galAut?'on':''}" data-fa="${esc(a)}">${a==='Tous'?'Tous les auteurs':'Réalisé par '+esc(a)}</button>`).join('')}</div>
+<div class="gal" id="gal">${list.length?list.map((p,i)=>workCard(p,'d'+(i%3))).join(''):'<p class="soft">Aucun projet dans cette catégorie pour le moment.</p>'}</div>
+</div></section>${ctaBand()}`;
+};
+views.work=(id)=>{
+const i=S.projects.findIndex(p=>p.id===id); if(i<0) return views.notfound();
+const p=S.projects[i], prev=S.projects[(i-1+S.projects.length)%S.projects.length], next=S.projects[(i+1)%S.projects.length];
+return `<section class="blk"><div class="wrap">
+<a class="link" href="#/realisations">← Toutes les réalisations</a>
+<div class="two" style="margin-top:28px;align-items:center">
+<div class="work"><div class="fig rv" style="aspect-ratio:4/5">${art(p)}</div></div>
+<div><span class="chip rv"><i></i>${esc(p.cat)}</span><h1 class="rv d1" style="font-size:clamp(32px,4.6vw,54px)">${esc(p.title)}</h1>
+<p class="lead rv d2" style="margin-top:18px">${esc(p.desc)}</p>
+<div class="tags rv d3"><span>${esc(p.year)}</span><span>Réalisé par ${esc(p.auteur||'Elvis')}</span></div>
+<div class="cta-row rv d3"><a class="btn btn-g" target="_blank" rel="noopener" href="${wa('Bonjour ELVAND, j’aime le projet « '+p.title+' ». J’aimerais un projet similaire.')}">Un projet similaire ?</a></div>
+</div></div>
+<div class="head" style="margin-top:56px"><a class="btn btn-o" href="#/realisations/${prev.id}">← ${esc(prev.title)}</a><a class="btn btn-o" href="#/realisations/${next.id}">${esc(next.title)} →</a></div>
+</div></section>`;
+};
+views.news=()=>`<section class="blk"><div class="wrap"><h1 class="rv" style="font-size:clamp(34px,5.4vw,60px)">Actualités</h1><p class="lead rv d1" style="margin-top:16px">Annonces, nouveaux projets et nouvelles du studio.</p>
+<div class="news" style="margin-top:36px">${[...S.news].sort((a,b)=>b.date.localeCompare(a.date)).map(postCard).join('')||'<p class="soft">Aucune annonce pour le moment.</p>'}</div></div></section>`;
+views.article=(id)=>{
+const n=S.news.find(x=>x.id===id); if(!n) return views.notfound();
+return `<section class="blk"><div class="wrap article"><a class="link" href="#/actualites">← Actualités</a>
+<h1 class="rv" style="font-size:clamp(32px,5vw,56px);margin-top:24px">${esc(n.title)}</h1><p class="soft rv d1" style="margin-top:12px">${fdate(n.date)}, ${esc(n.tag)}</p>
+<p class="rv d2" style="white-space:pre-line">${esc(n.text)}</p><div class="cta-row rv d3"><a class="btn btn-g" target="_blank" rel="noopener" href="${wa('Bonjour ELVAND, je vous écris au sujet de : '+n.title)}">En parler sur WhatsApp</a></div></div></section>`;
+};
+views.faq=()=>`<section class="blk"><div class="wrap two"><div><h1 class="rv" style="font-size:clamp(34px,5.4vw,60px)">FAQ</h1><p class="lead rv d1" style="margin-top:16px">Vous ne trouvez pas votre réponse ? Écrivez-nous.</p><a class="btn btn-g rv d2" style="margin-top:24px" href="#/contact">Nous contacter</a></div><div class="rv d1">${faqHtml(FAQ)}</div></div></section>`;
+views.contact=()=>{
+const s=S.settings;
+return `<section class="blk"><div class="wrap">
+<h1 class="rv" style="font-size:clamp(34px,5.4vw,60px)">Contact</h1>
+<p class="lead rv d1" style="margin-top:16px">Décrivez votre projet : votre message s’ouvre dans WhatsApp, prêt à être envoyé.</p>
+<div class="two" style="margin-top:40px">
+<form class="f rv" id="cform" novalidate>
+<label>Votre nom<input name="nom" autocomplete="name" required></label>
+<div class="grid2"><label>Votre e-mail (facultatif)<input name="mail" type="email" autocomplete="email"></label>
+<label>Service souhaité<select name="serv">${CATS.map(c=>`<option>${esc(c)}</option>`).join('')}<option>Autre</option></select></label></div>
+<label>Votre message<textarea name="msg" required placeholder="Décrivez votre projet, vos délais, vos idées…"></textarea></label>
+<div id="cmsg" aria-live="polite"></div>
+<button class="btn btn-g" type="submit">Envoyer sur WhatsApp</button>
+</form>
+<div class="clist rv d1">
+<a class="crow" target="_blank" rel="noopener" href="${wa()}">${ic('<path d="M21 12a9 9 0 1 1-4-7.500L21 3l-1.500 4A9 9 0 0 1 21 12z"/>')}<div><b>WhatsApp</b><span>${phoneFmt(s.whatsapp)}</span></div></a>
+<a class="crow" target="_blank" rel="noopener" href="${esc(s.facebook)}">${ic('<path d="M15 3h-3a4 4 0 0 0-4 4v3H5v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2z"/>')}<div><b>Facebook</b><span>Page ELVAND</span></div></a>
+<a class="crow" href="mailto:${esc(s.email)}">${ic('<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>')}<div><b>E-mail</b><span>${esc(s.email)}</span></div></a>
+<div class="crow">${ic('<path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.500"/>')}<div><b>Studio</b><span>${esc(s.city)}</span></div></div>
+</div>
+</div></div></section>`;
+};
+views.legal=()=>`<section class="blk"><div class="wrap legal"><h1 style="font-size:clamp(32px,5vw,54px)">Mentions légales</h1>
+<h2>Éditeur du site</h2><p>ELVAND Studio (ELVAND SOLUTION), fondé par Elvis Muhiya et André La parole. ${esc(S.settings.city)}. Contact : ${esc(S.settings.email)}.</p>
+<h2>Hébergement</h2><p>À compléter avec le nom et l’adresse de votre hébergeur.</p>
+<h2>Propriété intellectuelle</h2><p>Le logo, les visuels, les textes et les réalisations présentées sont la propriété d’ELVAND Studio ou de leurs auteurs. Toute reproduction sans accord écrit est interdite.</p>
+<h2>Responsabilité</h2><p>Nous mettons tout en œuvre pour que les informations du site soient exactes. Elles peuvent évoluer sans préavis.</p></div></section>`;
+views.privacy=()=>`<section class="blk"><div class="wrap legal"><h1 style="font-size:clamp(32px,5vw,54px)">Confidentialité</h1>
+<h2>Données saisies dans le formulaire</h2><p>Le formulaire de contact ne stocke rien sur le site : il prépare un message que vous envoyez vous-même via WhatsApp.</p>
+<h2>Stockage local</h2><p>Le site mémorise dans votre navigateur votre choix de thème et votre accord sur l’information affichée. Aucun suivi publicitaire n’est utilisé.</p>
+<h2>Vos droits</h2><p>Pour toute question ou demande de suppression d’échange, écrivez à ${esc(S.settings.email)}.</p></div></section>`;
+views.notfound=()=>`<section class="blk"><div class="wrap err404"><b>404</b><h2>Cette page n’existe pas.</h2><p class="lead" style="margin:14px auto 0">Elle a peut-être changé d’adresse. Retournez à l’accueil ou parcourez nos réalisations.</p><div class="cta-row" style="justify-content:center"><a class="btn btn-g" href="#/">Retour à l’accueil</a><a class="btn btn-o" href="#/realisations">Réalisations</a></div></div></section>`;
+const A={tab:'apercu',eP:null,eN:null,msg:'',rows:null};
+const fld=(l,n,v='',ty='text',x='')=>`<label>${l}<input name="${n}" type="${ty}" value="${esc(v)}" ${x}></label>`;
+async function loadRows(){try{const [p,n]=await Promise.all([api('/rest/v1/projects?select=*&order=position.asc,created_at.desc',{auth:true}),api('/rest/v1/news?select=*&order=date.desc',{auth:true})]);A.rows={p,n};render()}catch(e){expired(e)}}
+function expired(e){if(e.status===401||e.status===403){TOKEN=null;try{sessionStorage.removeItem('elvand_tok')}catch(_){}A.rows=null;A.msg='Session expirée : reconnectez-vous.'}else A.msg='Erreur : '+e.message;render()}
+const shrink=f=>new Promise(res=>{if(!f||!f.size)return res(null);const im=new Image(),u=URL.createObjectURL(f);im.onload=()=>{const k=Math.min(1,1400/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);c.toBlob(b=>{URL.revokeObjectURL(u);res(b)},'image/jpeg',.85)};im.onerror=()=>res(null);im.src=u});
+async function upload(f){const b=await shrink(f);if(!b)return'';const n=Date.now().toString(36)+Math.random().toString(36).slice(2,6)+'.jpg';await api('/storage/v1/object/site-images/'+n,{method:'POST',auth:true,body:b,headers:{'Content-Type':'image/jpeg'}});return SB+'/storage/v1/object/public/site-images/'+n}
+const refresh=async()=>{A.rows=null;await loadRemote();render()};
+views.admin=()=>{
+if(!TOKEN)return `<section class="blk"><div class="wrap login"><h1 style="font-size:clamp(30px,4.6vw,46px)">Administration</h1><p class="soft" style="margin:10px 0 24px">Accès réservé à l’équipe ELVAND.</p>${A.msg?`<p class="msg er">${esc(A.msg)}</p>`:''}<form class="f" id="lform"><label>E-mail<input name="e" type="email" autocomplete="username" required></label><label>Mot de passe<input name="p" type="password" autocomplete="current-password" required></label><div id="lmsg" aria-live="polite"></div><button class="btn btn-v" type="submit">Se connecter</button></form></div></section>`;
+if(!A.rows){loadRows();return '<section class="blk"><div class="wrap"><p class="soft">Chargement…</p></div></section>'}
+const tabs=[['apercu','Aperçu'],['real','Réalisations'],['annonces','Annonces'],['textes','Textes et images'],['compte','Compte']];
+const msg=A.msg?`<p class="msg ${A.msg.startsWith('Erreur')?'er':'ok'}" style="margin-bottom:14px">${esc(A.msg)}</p>`:'';
+let b='';const s=S.settings;
+if(A.tab==='apercu'){const e=!A.rows.p.length&&!A.rows.n.length;b=`<h3>Aperçu</h3>${msg}<div class="kpis"><div><b>${A.rows.p.length}</b>réalisations</div><div><b>${A.rows.n.length}</b>annonces</div></div>${e?'<p class="soft">La base est vide : le site affiche pour l’instant des exemples. Importez-les pour pouvoir les modifier, les remplacer ou les supprimer.</p><div class="cta-row"><button class="btn btn-g btn-s" data-a="import">Importer les exemples</button></div>':'<p class="soft">Les modifications sont publiées immédiatement sur le site.</p>'}<div class="cta-row"><a class="btn btn-o btn-s" href="#/">Voir le site</a><button class="btn btn-o btn-s" data-a="logout">Se déconnecter</button></div>`}
+if(A.tab==='real'){const p=A.eP&&A.rows.p.find(x=>x.id===A.eP);
+b=`<h3>Réalisations</h3>${msg}<form class="f" id="pform" style="margin:18px 0 26px"><strong>${p?'Modifier la réalisation':'Ajouter une réalisation'}</strong>${fld('Titre','title',p?.title,'text','required')}
+<div class="grid2"><label>Catégorie<select name="cat">${CATS.map(c=>`<option ${p&&p.cat===c?'selected':''}>${esc(c)}</option>`).join('')}</select></label>${fld('Année','year',p?.year||new Date().getFullYear())}</div>
+<div class="grid2"><label>Réalisé par (architecture et décoration : toujours Elvis)<select name="auteur">${AUT.map(a=>`<option ${p&&p.auteur===a?'selected':''}>${a}</option>`).join('')}</select></label><label>Style du visuel par défaut<select name="tone">${[0,1,2,3,4,5].map(i=>`<option value="${i}" ${p&&p.tone===i?'selected':''}>Style ${i+1}</option>`).join('')}</select></label></div>
+<label>Description<textarea name="desc">${esc(p?.description||'')}</textarea></label><label>Image (remplace le visuel par défaut)<input name="img" type="file" accept="image/*"></label>
+<div class="cta-row" style="margin:0"><button class="btn btn-g btn-s" type="submit">${p?'Enregistrer':'Ajouter'}</button>${p?'<button class="btn btn-o btn-s" type="button" data-a="cancelP">Annuler</button>':''}</div></form>
+${A.rows.p.map(x=>`<div class="row"><div style="display:flex;gap:14px;align-items:center"><div class="pv"><div class="fig" style="aspect-ratio:4/5;border-radius:6px;overflow:hidden">${art(rowP(x))}</div></div><div><b>${esc(x.title)}</b><br><small>${esc(x.cat)}, ${esc(x.year||'')}, par ${esc(x.auteur)}${x.prov?' · exemple à remplacer':''}</small></div></div><div class="ac"><button class="btn btn-o btn-s" data-a="editP" data-id="${esc(x.id)}">Modifier</button><button class="btn btn-d btn-s" data-a="delP" data-id="${esc(x.id)}">Supprimer</button></div></div>`).join('')||'<p class="soft">Aucune réalisation en base.</p>'}`}
+if(A.tab==='annonces'){const n=A.eN&&A.rows.n.find(x=>x.id===A.eN);
+b=`<h3>Annonces</h3>${msg}<form class="f" id="nform" style="margin:18px 0 26px"><strong>${n?'Modifier l’annonce':'Publier une annonce'}</strong>${fld('Titre','title',n?.title,'text','required')}<div class="grid2">${fld('Étiquette','tag',n?.tag||'Annonce')}${fld('Date','date',n?.date||new Date().toISOString().slice(0,10),'date')}</div><label>Texte<textarea name="text" required>${esc(n?.text||'')}</textarea></label>
+<div class="cta-row" style="margin:0"><button class="btn btn-g btn-s" type="submit">${n?'Enregistrer':'Publier'}</button>${n?'<button class="btn btn-o btn-s" type="button" data-a="cancelN">Annuler</button>':''}</div></form>
+${A.rows.n.map(x=>`<div class="row"><div><b>${esc(x.title)}</b><br><small>${fdate(x.date)}, ${esc(x.tag)}</small></div><div class="ac"><button class="btn btn-o btn-s" data-a="editN" data-id="${esc(x.id)}">Modifier</button><button class="btn btn-d btn-s" data-a="delN" data-id="${esc(x.id)}">Supprimer</button></div></div>`).join('')||'<p class="soft">Aucune annonce en base.</p>'}`}
+if(A.tab==='textes')b=`<h3>Textes et images</h3>${msg}<form class="f" id="tform">${fld('Titre de l’accueil','heroTitle',s.heroTitle)}<label>Texte de l’accueil<textarea name="heroText">${esc(s.heroText)}</textarea></label>${fld('Titre de la section À propos','aboutTitle',s.aboutTitle)}<label>Introduction de la page À propos<textarea name="aboutText">${esc(s.aboutText)}</textarea></label>
+<label>Description d’Elvis (âge, parcours, compétences)<textarea name="elvisText" style="min-height:160px">${esc(s.elvisText)}</textarea></label><label>Photo d’Elvis<input name="aboutPhoto" type="file" accept="image/*"></label>
+<label>Description d’André La parole<textarea name="andreText" style="min-height:130px">${esc(s.andreText)}</textarea></label><label>Photo d’André<input name="andrePhoto" type="file" accept="image/*"></label>
+<div class="grid2">${fld('Numéro WhatsApp (sans +)','whatsapp',s.whatsapp)}${fld('E-mail de contact','email',s.email,'email')}</div>${fld('Lien Facebook','facebook',s.facebook)}<div class="grid2">${fld('Ville affichée','city',s.city)}${fld('Année de début','since',s.since)}</div><button class="btn btn-g btn-s" type="submit" style="justify-self:start">Enregistrer</button></form>`;
+if(A.tab==='compte')b=`<h3>Compte</h3>${msg}<p class="soft" style="margin-bottom:16px">Changez votre mot de passe dès la première connexion (8 caractères minimum).</p><form class="f" id="sform">${fld('Nouveau mot de passe','newP','','password','required minlength=8 autocomplete=new-password')}<div class="cta-row" style="margin:0"><button class="btn btn-v btn-s" type="submit">Mettre à jour</button><button class="btn btn-o btn-s" type="button" data-a="logout">Se déconnecter</button></div></form>`;
+return `<section class="blk"><div class="wrap"><h1 style="font-size:clamp(30px,4.6vw,46px);margin-bottom:26px">Tableau de bord</h1><div class="adm"><div class="atabs">${tabs.map(([k,l])=>`<button class="${k===A.tab?'on':''}" data-tab="${k}">${l}</button>`).join('')}</div><div class="panel">${b}</div></div></div></section>`};
+document.addEventListener('click',async e=>{
+const tb=e.target.closest('[data-tab]');if(tb){A.tab=tb.dataset.tab;A.msg='';A.eP=A.eN=null;render();return}
+const a=e.target.closest('[data-a]');if(!a)return;const id=a.dataset.id;
+try{switch(a.dataset.a){
+case 'editP':A.eP=id;A.msg='';render();window.scrollTo({top:0});break;
+case 'cancelP':A.eP=null;render();break;
+case 'editN':A.eN=id;A.msg='';render();break;
+case 'cancelN':A.eN=null;render();break;
+case 'delP':if(confirm('Supprimer cette réalisation ?')){await api('/rest/v1/projects?id=eq.'+encodeURIComponent(id),{method:'DELETE',auth:true});A.msg='Réalisation supprimée.';await refresh()}break;
+case 'delN':if(confirm('Supprimer cette annonce ?')){await api('/rest/v1/news?id=eq.'+encodeURIComponent(id),{method:'DELETE',auth:true});A.msg='Annonce supprimée.';await refresh()}break;
+case 'import':await api('/rest/v1/projects',{method:'POST',auth:true,headers:{Prefer:'return=minimal'},json:DEF.projects.map((p,i)=>({id:p.id,title:p.title,cat:p.cat,auteur:p.auteur,year:p.year,tone:p.tone,img:'',description:p.desc,prov:!!p.prov,position:i+1}))});await api('/rest/v1/news',{method:'POST',auth:true,headers:{Prefer:'return=minimal'},json:DEF.news.map(n=>({id:n.id,title:n.title,tag:n.tag,date:n.date,text:n.text}))});A.msg='Exemples importés.';await refresh();break;
+case 'logout':TOKEN=null;try{sessionStorage.removeItem('elvand_tok')}catch(_){}A.rows=null;A.msg='';location.hash='#/';render();break}}catch(er){expired(er)}});
+document.addEventListener('submit',async e=>{
+const f=e.target;if(f.id==='cform'||!f.id)return;e.preventDefault();const d=Object.fromEntries(new FormData(f));const H={Prefer:'return=minimal'};
+try{
+if(f.id==='lform'){const r=await api('/auth/v1/token?grant_type=password',{method:'POST',json:{email:d.e.trim(),password:d.p}});TOKEN=r.access_token;try{sessionStorage.setItem('elvand_tok',TOKEN)}catch(_){}A.msg='';A.tab='apercu';A.rows=null;render()}
+if(f.id==='pform'){const old=A.eP&&A.rows.p.find(x=>x.id===A.eP);const u=await upload(f.img.files[0]);const row={title:d.title.trim(),cat:d.cat,auteur:CONSTR.includes(d.cat)?'Elvis':d.auteur,year:d.year,tone:+d.tone,description:d.desc,prov:false,img:u||(old?old.img:'')};
+if(old)await api('/rest/v1/projects?id=eq.'+encodeURIComponent(old.id),{method:'PATCH',auth:true,headers:H,json:row});else await api('/rest/v1/projects',{method:'POST',auth:true,headers:H,json:row});A.msg=old?'Réalisation enregistrée.':'Réalisation ajoutée.';A.eP=null;await refresh()}
+if(f.id==='nform'){const old=A.eN&&A.rows.n.find(x=>x.id===A.eN);const row={title:d.title.trim(),tag:d.tag||'Annonce',date:d.date,text:d.text};
+if(old)await api('/rest/v1/news?id=eq.'+encodeURIComponent(old.id),{method:'PATCH',auth:true,headers:H,json:row});else await api('/rest/v1/news',{method:'POST',auth:true,headers:H,json:row});A.msg=old?'Annonce enregistrée.':'Annonce publiée.';A.eN=null;await refresh()}
+if(f.id==='tform'){const[pe,pa]=await Promise.all([upload(f.aboutPhoto.files[0]),upload(f.andrePhoto.files[0])]);const{aboutPhoto,andrePhoto,...rest}=d;const data={...rest,aboutPhoto:pe||S.settings.aboutPhoto,andrePhoto:pa||S.settings.andrePhoto};
+await api('/rest/v1/site_settings?on_conflict=id',{method:'POST',auth:true,headers:{Prefer:'resolution=merge-duplicates,return=minimal'},json:{id:1,data}});A.msg='Textes enregistrés.';await refresh()}
+if(f.id==='sform'){await api('/auth/v1/user',{method:'PUT',auth:true,json:{password:d.newP}});A.msg='Mot de passe mis à jour.';render()}
+}catch(er){if(f.id==='lform'){$('#lmsg').innerHTML='<p class="msg er">E-mail ou mot de passe incorrect.</p>'}else expired(er)}});
+const NAV=[['#/','Accueil'],['#/a-propos','À propos'],['#/services','Services'],['#/realisations','Réalisations'],['#/actualites','Actualités'],['#/faq','FAQ'],['#/contact','Contact']];
+function renderChrome(){
+const s=S.settings;
+$('#drawer').innerHTML=NAV.map(([h,l])=>`<a class="nl" href="${h}">${l}</a>`).join('')+`<div class="dc"><a href="${wa()}" target="_blank" rel="noopener">WhatsApp ${phoneFmt(s.whatsapp)}</a><br><a href="${esc(s.facebook)}" target="_blank" rel="noopener">Facebook</a><br>${esc(s.city)}</div>`;
+$('#foot').innerHTML=`<div class="wrap"><div class="fgrid"><div><img class="logo" src="${LOGO}" alt="ELVAND Solution"><p>Graphisme, web, applications, architecture et décoration d’intérieur.</p></div>
+<div><h4>Navigation</h4>${NAV.map(([h,l])=>`<a href="${h}">${l}</a>`).join('')}</div>
+<div><h4>Contact</h4><a href="${wa()}" target="_blank" rel="noopener">${phoneFmt(s.whatsapp)}</a><a href="mailto:${esc(s.email)}">${esc(s.email)}</a><a href="${esc(s.facebook)}" target="_blank" rel="noopener">Facebook</a><p>${esc(s.city)}</p></div>
+<div><h4>Informations</h4><a href="#/mentions-legales">Mentions légales</a><a href="#/confidentialite">Confidentialité</a></div></div>
+<div class="fbot"><span>© 2024–${new Date().getFullYear()} ELVAND Studio. Tous droits réservés.</span><a class="lock" href="#/admin" aria-label="Administration"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></a></div></div>`;
+$('#wafab').href=wa('Bonjour ELVAND, j’aimerais en savoir plus.');
+}
+const io='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12}):null;
+function reveal(){$$('.rv').forEach(el=>io?io.observe(el):el.classList.add('in'))}
+function closeMenu(){$('#drawer').classList.remove('on');$('#scrim').classList.remove('on');$('#burger').setAttribute('aria-expanded','false');$('#burger').setAttribute('aria-label','Ouvrir le menu')}
+function openMenu(){$('#drawer').classList.add('on');$('#scrim').classList.add('on');$('#burger').setAttribute('aria-expanded','true');$('#burger').setAttribute('aria-label','Fermer le menu')}
+const TITLES={'':'Accueil',admin:'Administration','a-propos':'À propos',services:'Services',realisations:'Réalisations',actualites:'Actualités',faq:'FAQ',contact:'Contact','mentions-legales':'Mentions légales',confidentialite:'Confidentialité'};
+function render(){
+const h=location.hash.replace(/^#\/?/,''); const [a,b]=h.split('/');
+let html;
+if(a==='') html=views.home(); else if(a==='a-propos') html=views.about(); else if(a==='services') html=views.services();
+else if(a==='realisations') html=b?views.work(b):views.works(); else if(a==='actualites') html=b?views.article(b):views.news();
+else if(a==='faq') html=views.faq(); else if(a==='contact') html=views.contact(); else if(a==='mentions-legales') html=views.legal();
+else if(a==='confidentialite') html=views.privacy(); else if(a==='admin') html=views.admin(); else html=views.notfound();
+$('#app').innerHTML=html;
+document.title=(TITLES[a]!==undefined?TITLES[a]+' – ':'Page introuvable – ')+'ELVAND SOLUTION';
+$$('#drawer a.nl').forEach(l=>l.classList.toggle('act',l.getAttribute('href')==='#/'+a||(a===''&&l.getAttribute('href')==='#/')));
+closeMenu(); reveal();
+}
+window.addEventListener('hashchange',()=>{render();window.scrollTo({top:0,behavior:'instant'})});
+$('#burger').addEventListener('click',()=>$('#drawer').classList.contains('on')?closeMenu():openMenu());
+$('#scrim').addEventListener('click',closeMenu);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+$('#theme').addEventListener('click',()=>{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;store.set('elvand_theme',t)});
+$('#totop').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+$('#cok').addEventListener('click',()=>{$('#cookie').classList.remove('on');store.set('elvand_ok',1)});
+window.addEventListener('scroll',()=>{const h=document.documentElement;$('#progress').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight||1)*100)+'%';$('#totop').classList.toggle('on',h.scrollTop>600)},{passive:true});
+document.addEventListener('click',e=>{
+const fa=e.target.closest('[data-fa]'); if(fa){galAut=fa.dataset.fa;render();return}
+const au=e.target.closest('[data-aut]'); if(au){galAut=au.dataset.aut;galCat='Tout'}
+const f=e.target.closest('[data-filter]'); if(f){galCat=f.dataset.filter;render();return}
+const c=e.target.closest('[data-cat]'); if(c){galCat=c.dataset.cat}
+});
+document.addEventListener('submit',e=>{
+const f=e.target; if(f.id!=='cform')return; e.preventDefault(); const d=Object.fromEntries(new FormData(f));
+if(!d.nom.trim()||!d.msg.trim()){$('#cmsg').innerHTML='<p class="msg er">Indiquez votre nom et votre message.</p>';return}
+const txt=`Bonjour ELVAND, je suis ${d.nom}.\nService : ${d.serv}\n${d.msg}${d.mail?`\nMon e-mail : ${d.mail}`:''}`;
+$('#cmsg').innerHTML='<p class="msg ok">Votre message est prêt : WhatsApp s’ouvre dans un nouvel onglet.</p>';
+window.open(wa(txt),'_blank','noopener');
+});
+const th=store.get('elvand_theme'); if(th) document.documentElement.dataset.theme=th;
+if(!store.get('elvand_ok')) setTimeout(()=>$('#cookie').classList.add('on'),2500);
+renderChrome(); render(); loadRemote();
+setTimeout(()=>$('#pre').classList.add('off'),900);
+</script>
+</body>
+</html>
